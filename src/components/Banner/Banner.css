@@ -1,0 +1,17 @@
+.banner{
+    background-image: url('../../../public/main\ bg.jpg');
+    background-position: 100%;
+    background-size:cover;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    
+}
+.card{
+    height: 13rem;
+    width: 90rem;
+    background-color: rgb(245, 247, 245);
+    margin-top: 20rem;
+}
