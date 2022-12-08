@@ -8,11 +8,13 @@ import Why from '../components/why/Why'
 import Footer from '../components/Footer/Footer'
 import Cars from '../components/cars/Cars'
 import Places from '../components/places/Places'
+import Navbars from '../components/Navbar/Navbars'
+
 
 function Home() {
   return (
     <>
-
+        <Navbars />
         <Banner/>
         <Services/>
         <Banner2/>
