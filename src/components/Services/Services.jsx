@@ -18,24 +18,6 @@ function Services() {
             </div>
             <h6 className='split-text1'>Clean And <br/> Hygienic Car</h6>
 
-        <Row className='split-main'>
-            <Col className='split-col'>
-            <img alt='' className='split-png'src='car-wash.png'/>
-            <h6 className='split-text'>Clean And <br/> Hygienic Car</h6>
-            </Col>
-            <Col className='split-col'>
-            <img alt='' className='split-png'src='bill.png'/>
-            <h6 className='split-text'>Transparent<br/> Billing</h6>
-            </Col>
-            <Col className='split-col'>
-            <img alt='' className='split-png'src='chauffeur.png'/>
-            <h6 className='split-text'>Expert<br/> Chauffeurs</h6>
-            </Col>
-            <Col className='split-col'>
-            <img alt='' className='split-png'src='india.png'/>
-            <h6 className='split-text'>2000+<br/> Cities</h6>
-            </Col>
-        </Row>
             <div className='split-png-div2'>
             <img className='split-png2'src='bill.png'/>
             </div>
