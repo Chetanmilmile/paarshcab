@@ -1,20 +1,189 @@
-.split-png{
-    width: 25%;
-    background-color: white;
+.split-head{
+    margin: 1rem 0 4rem 0;
+    font-weight: 700;
+}
+.split-ul1{
+  width: 15rem;
+  height: 0.2rem;
+  background-color: #7142f8;
+  position: relative;
+  bottom: 39.7rem;
+  left: 30rem;
+}
+.split-ul2{
+    width: 15rem;
+    height: 0.2rem;
+    background-color: #7142f8;
+    position: relative;
+    bottom: 45rem;
+    left: 35rem;
+  }
+.split-ul3{
+    width: 15rem;
+    height: 0.2rem;
+    background-color: #7142f8;
+    position: relative;
+    bottom: 35rem;
+    left: 35rem;
+  }
+  .split-ul4{
+    width: 15rem;
+    height: 0.2rem;
+    background-color: #7142f8;
+    position: relative;
+    bottom: 39.7rem;
+    left: -30rem;
+  }
+  .split-ul5{
+    width: 15rem;
+    height: 0.2rem;
+    background-color: #7142f8;
+    position: relative;
+    bottom: 45rem;
+    left: -35rem;
+  }
+  .split-ul6{
+    width: 15rem;
+    height: 0.2rem;
+    background-color: #7142f8;
+    position: relative;
+    bottom: 35rem;
+    left: -35rem;
+  }
+.split-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.split-inner{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
-    padding: 0.5rem;
+    border: 3px dashed #a180ff;
+}
+
+.split-img{
+    background-image:url('../../../public/image\ 5.jpg') ;
+    background-size: cover;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    border: 1.5rem solid #a180ff;
+   
     
 }
-.split-main{
-    background-color: rgb(14, 169, 235);
-    margin: 2rem 7rem;
-    padding: 2rem;
-    border-radius: 1rem;
+.split-png-div1{
+    background-color: aliceblue;
+    border-radius: 10rem;
+    width: 8rem;
+    height: 8rem;
+    border: 0.7rem solid #a180ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 7rem;
+    right: 8rem;
+    box-shadow:   0px 1.5rem 0 #baa1ff;   
 }
-.split-text{
-    color: white;
+.split-png1{
+    width: 80%;
+}
+.split-png-div2{
+    background-color: aliceblue;
+    border-radius: 10rem;
+    width: 8rem;
+    height: 8rem;
+    border: 0.7rem solid #a180ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 20rem;
+    left: 16rem;
+    box-shadow:  0px 1.5rem 0px #baa1ff;   
+}
+.split-png2{
+    width: 80%;
+}
+.split-png-div3{
+    background-color: aliceblue;
+    border-radius: 10rem;
+    width: 8rem;
+    height: 8rem;
+    border: 0.7rem solid #a180ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -10rem;
+    right: -18rem;
+    box-shadow:  0px 1.5rem  0px #baa1ff;   
+}
+.split-png3{
+    width: 80%;
+}
+.split-png-div4{
+    background-color: aliceblue;
+    border-radius: 10rem;
+    width: 8rem;
+    height: 8rem;
+    border: 0.7rem solid #a180ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -21rem;
+    left: -8rem;
+    box-shadow: 1.5rem 0px 0px #baa1ff;   
+}
+.split-png4{
+    width: 80%;
+}
+
+
+.split-main{
+    background-image: url('../../../public/image\ 5.jpg');
+    background-size:cover ;
+}
+.split-text1{
     text-align: left;
     margin-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    position: relative;
+    top: -12rem;
+    right: 19rem;
+}
+.split-text2{
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    position: relative;
+    top:-25rem;
+    left: 25rem;
+}
+.split-text3{
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    position: relative;
+    top: -15rem;
+    right: -27rem;
+}
+.split-text4{
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    position: relative;
+    top: -25rem;
+    right: 15rem;
 }
 .split-col{
     display: flex;
@@ -36,48 +205,131 @@
     justify-content: center;
     
 }
-.service-card{
-    margin: 1rem;
-    max-width: 300px;
-    max-height: 500px;
-    /* border: 2px solid black;
-    border-radius: 1rem; */
+.our-services{
+    margin: 5rem 0 2rem 0;
+    font-weight: 700;
 }
-.service-img{
+  
+   
+
+
+.service-img1{
+    background-image: url('../../../public/background.png');
+    background-size: cover ;
     margin: 0;
     width: 100%;
+    height: 12rem;
     border: none;
+    border-radius:1rem 1rem 0 0;
+    object-fit: cover;
+}
+.service-img2{
+    background-image: url('../../../public/round.jpg');
+    background-size: cover ;
+    margin: 0;
+    width: 100%;
+    height: 12rem;
+    border: none;
+    border-radius:1rem 1rem 0 0;
+    object-fit: cover;
+}
+.service-img3{
+    background-image: url('../../../public/rental.jpg');
+    background-size: cover ;
+    width: 100%;
+    height: 12rem;
+    border: none;
+    border-radius:1rem 1rem 0 0;
+    object-fit: cover;
+}
+.service-img4{
+    background-image: url('../../../public/airport.jpg');
+    background-size: cover ;
+    
+    width: 100%;
+    height: 12rem;
+    border: none;
+    border-radius:1rem 1rem 0 0;
+    object-fit: cover;
+}
+.back-car{
+    position: relative;
+    top: 4rem;
+    left: 1rem;
 }
 .service-title{
-    font-size: 100%;
-    color: rgb(11, 213, 239);
+    font-size: 1.5rem;
+    color: #7142f8;
+    margin: 2rem 0 1rem 0;
+    font-weight: bolder;
 }
 .service-texts{
-    font-size: 90%;
+    font-size: 1rem;
     text-align: left;
+    font-weight: 400;
+    padding: 0 1rem;
 }
+
 .service-png{
-    background-color: rgb(10, 88, 95);
+    background-color:#7142f8;
     border-radius: 50%;
     padding: 0.2rem;
-    width: 15%;
-    position: absolute;
-    top: 11rem;
-    right: 1.5rem;
+    width: 18%;
+    position: relative;
+    top: 10.5rem;
+    left: 6rem;
 }
+.service-png1{
+    background-color:#7142f8;
+    border-radius: 50%;
+    padding-top: 0.2rem;
+
+    width: 18%;
+    position: relative;
+    top: 7.8rem;
+    left: 0rem;
+}
+
 .service-icons{
-    width: 2rem;
+    width: 3rem;
     border: 1px solid black;
     padding: 0.2rem;
     border-radius: 50%;
+    position: relative;
+    
 }
 .list-group-flush{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+   
+}
+.service-icon4{
+    position: relative;
+    top: 2rem ;
+}
+.service-icon3{
+    position: relative;
+    top: 0.5rem;
+}
+.service-icon2{
+    position: relative;
+    top: 2rem;
+}
+.service-icon1{
+    position: relative;
+    bottom: 0;
 }
 .service-text{
     font-size: 0.7rem;
     margin:0 1rem;
+}
+
+.service-img-div{
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 35rem;
+
 }

@@ -36,7 +36,7 @@ function Navbars() {
                     </Nav.Link>
                   <Nav.Link href="#"> 
                     <div className="dropdown">
-                     <h1 className="lang">Lang<i class="arrow down"></i></h1>
+                     <h1 className="lang ">Lang<i class="arrow down"></i></h1>
                      <div className="dropdown-content">
                       <a href="#">English</a>
                       <a href="#">Hindi</a>

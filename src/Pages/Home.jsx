@@ -7,7 +7,7 @@ import Services from '../components/Services/Services'
 function Home() {
   return (
     <>
-        <Navbars/>
+        {/* <Navbars/> */}
         <Banner/>
         <Services/>
         <Banner2/>
