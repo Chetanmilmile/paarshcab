@@ -5,10 +5,6 @@ import './Services.css'
 function Services() {
   return (
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 070defe3cb939e8e0f7ab0868f3f9862fa6d2c68
     <Container fluid className='services'>
 
         <h1 className='split-head' >WHAT FORMS MANSI SPLIT ?</h1>
