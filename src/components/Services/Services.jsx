@@ -5,7 +5,10 @@ import './Services.css'
 function Services() {
   return (
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 070defe3cb939e8e0f7ab0868f3f9862fa6d2c68
     <Container fluid className='services'>
 
         <h1 className='split-head' >WHAT FORMS MANSI SPLIT ?</h1>
@@ -19,6 +22,24 @@ function Services() {
             </div>
             <h6 className='split-text1'>Clean And <br/> Hygienic Car</h6>
 
+        <Row className='split-main'>
+            <Col className='split-col'>
+            <img alt='' className='split-png'src='car-wash.png'/>
+            <h6 className='split-text'>Clean And <br/> Hygienic Car</h6>
+            </Col>
+            <Col className='split-col'>
+            <img alt='' className='split-png'src='bill.png'/>
+            <h6 className='split-text'>Transparent<br/> Billing</h6>
+            </Col>
+            <Col className='split-col'>
+            <img alt='' className='split-png'src='chauffeur.png'/>
+            <h6 className='split-text'>Expert<br/> Chauffeurs</h6>
+            </Col>
+            <Col className='split-col'>
+            <img alt='' className='split-png'src='india.png'/>
+            <h6 className='split-text'>2000+<br/> Cities</h6>
+            </Col>
+        </Row>
             <div className='split-png-div2'>
             <img className='split-png2'src='bill.png'/>
             </div>
@@ -89,9 +110,9 @@ function Services() {
       <div className='service-icon2'>
 
       <div className="list-group-flush">
-    <p className='service-text'><img src='hatchback.png' className='service-icons'/><br/>15 Lakh routes </p>
-    <p className='service-text'><img src='hand.png' className='service-icons'/><br/>Lowest Fares</p>
-    <p className='service-text'><img src='india.png' className='service-icons'/><br/>All Inclusive Atops</p>
+    <p className='service-text'><img alt='' src='hatchback.png' className='service-icons'/><br/>15 Lakh routes </p>
+    <p className='service-text'><img alt='' src='hand.png' className='service-icons'/><br/>Lowest Fares</p>
+    <p className='service-text'><img alt='' src='india.png' className='service-icons'/><br/>All Inclusive Atops</p>
     </div>
     </div>
     </div>

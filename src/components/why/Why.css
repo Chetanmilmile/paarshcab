@@ -1,0 +1,32 @@
+.whyContainer{
+    padding: 2rem 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.whyimg1{
+    max-width: 80%;
+}
+.whyimg2{
+    max-width: 100%;
+    margin: 10% 0;
+}
+.whyimg3{
+    max-width: 55%;
+    margin: 10% 0;
+
+}
+.whyimg4{
+    max-width: 55%;
+    margin: 10% 0;
+
+}
+
+.whyCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
