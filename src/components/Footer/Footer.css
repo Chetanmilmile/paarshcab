@@ -1,0 +1,63 @@
+.footerContainer{
+    background-color: #131c44;
+    color: white;
+    padding: 2rem;
+    
+}
+
+.footerContainer h4{
+    border-bottom: 3px solid yellow;
+    font-weight: lighter;
+}
+.footerContainer a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-page{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.useful-links{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.useful-links div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.service-hrs{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;   
+}
+
+.innerService{
+    display: flex;
+    gap: 3vw;
+}
+
+.leftService{
+    text-align: left;
+}
+.rightService{
+    text-align: right;
+}
+
+.footer1img{
+    width: 100%;
+}
+.footer2img{
+    width: 100%;
+}
+.footerCol1{
+    display: flex;
+    justify-content: center;
+
+}

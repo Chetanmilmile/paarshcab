@@ -1,0 +1,28 @@
+
+.containerCaraousal{
+    background-image: url('../../../public/image\ 4.jpg');
+    background-size: cover;
+    height: 80vh;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 5rem;
+}
+.containerCaraousal h1{
+    color: white;
+    margin: 3rem;
+}
+.carousal2card{
+    width: 80%;
+    height: 100%;
+    color: white;
+    border: white;
+    border-style: dotted;
+    display: flex;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.students{
+    display: flex;
+    color: aliceblue;
+}

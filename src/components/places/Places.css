@@ -1,0 +1,10 @@
+.placesContainer{
+    background-color: #f2f7ff;
+    padding: 2rem 4rem;
+}
+
+.placesCol{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}

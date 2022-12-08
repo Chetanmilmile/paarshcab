@@ -19,27 +19,27 @@ function Navbars() {
           
                   </Nav>
                   <Nav>
-                    <Nav.Link href="#"> <Button  className="login-btn">Login</Button> </Nav.Link>
-                      <Nav.Link href="#" style={{color:"black" ,fontSize:"0.9rem"}} ><IoBagRemoveOutline className="agent" /> <br/> Travel Agent  </Nav.Link>
-                      <Nav.Link href="#" style={{color:"black", fontSize:"0.9rem"}}><img className="playstore" src="https://img.icons8.com/color/512/google-play.png"/> <br/> Download App
+                    <Nav.Link > <Button  className="login-btn">Login</Button> </Nav.Link>
+                      <Nav.Link  style={{color:"black" ,fontSize:"0.9rem"}} ><IoBagRemoveOutline className="agent" /> <br/> Travel Agent  </Nav.Link>
+                      <Nav.Link  style={{color:"black", fontSize:"0.9rem"}}><img className="playstore" src="https://img.icons8.com/color/512/google-play.png"/> <br/> Download App
                     </Nav.Link>
 
-                    <Nav.Link href="#"> 
+                    <Nav.Link > 
                       <div className="dropdown">
                        <BiUser className="login"/>
                          <div className="dropdown-content">
-                          <a href="#">Profile</a>
-                          <a href="#">Setting</a>
-                          <a href="#">Booked Cabs</a>
+                          <a >Profile</a>
+                          <a >Setting</a>
+                          <a >Booked Cabs</a>
                          </div>
                      </div>
                     </Nav.Link>
                   <Nav.Link href="#"> 
                     <div className="dropdown">
-                     <h1 className="lang">Lang<i class="arrow down"></i></h1>
+                     <h1 className="lang">Lang<i className="arrow down"></i></h1>
                      <div className="dropdown-content">
-                      <a href="#">English</a>
-                      <a href="#">Hindi</a>
+                      <a >English</a>
+                      <a >Hindi</a>
                      </div>
                     </div>
                   </Nav.Link>

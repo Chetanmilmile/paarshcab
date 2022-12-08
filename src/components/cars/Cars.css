@@ -1,0 +1,72 @@
+.carsContainer{
+    background-color: #eeeafa;
+    height: 80vh;
+}
+.outercarDiv{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.carsrow1{
+    background-color: #eeeafa;
+    height: 25%;
+    padding: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.carsrow2{
+    background-color: #7142f8;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.carDiv{
+    border: 0.1px solid gray;
+    border-radius: 50%;
+    width: 80px;
+}
+
+.carDiv:hover{
+    background-color: #9069ff;
+    box-shadow: 0 2px 2px 2px #b1adad;
+}
+
+.carDiv img{
+    width: 90%;
+}
+
+.innerCar2{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.leftCarData{
+    text-align: left;
+    line-height: 2.5rem;
+}
+
+.rightCarData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+.rightCarData p{
+    text-align: left;
+}
+
+/* .maincarimg{
+    
+} */
