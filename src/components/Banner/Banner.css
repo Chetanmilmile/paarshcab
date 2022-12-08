@@ -9,10 +9,17 @@
     margin-bottom: 10rem;
     
 }
+.banner-radio{
+    font-size: 1.5rem;
+    
+}
+.banner-radio input{
+    width: 2rem;
+}
 .card{
-    height: 13rem;
+    height: 15rem;
     width: 90rem;
-    background-color: rgb(245, 247, 245);
+    background-color: #ffff;
     margin-top: 20rem;
     border: 1px solid black;
 }
@@ -42,12 +49,17 @@
 }
 .banner-btn-cal{
     border-radius: 5px;
+    
 }
 .banner-btn-sub{
-    background-color: rgb(43, 210, 10);
-    width: 13rem;
-    border-radius: 1rem;
+    background-color: #9069ff;
+    font-size: 1.6rem;
+    width: 21rem;
+    height: 3rem;
+    border-radius: 5rem;
     border: none;
     font-weight: 700;
     color: white;
+    position: relative;
+    top:-0.8rem;
 }
